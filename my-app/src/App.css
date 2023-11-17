@@ -26,21 +26,3 @@
   color: rgba(255, 140, 0, 0.684);
   text-decoration: none;
 }
-
-.App-link {
-  color: #61dafb;
-}
-.App-catagory {
-  background-color: rgba(255, 255, 255, 0.582);
-  padding: 30px 200px;
-  margin: 30px;
-  border-radius: 60px;
-  font-size: 45px;
-  text-transform: uppercase;
-}
-.App-catagory a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  padding: 30px 200px;
-  margin: 30px;
-}

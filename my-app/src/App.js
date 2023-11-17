@@ -8,13 +8,63 @@ function App() {
           {" "}
           <em>Easy shop guide</em>{" "}
         </h1>
+        <a href="bedroom.html">Bedroom</a>
         <div className="App-container">
           <div className="App-catagory">
-            <a href="#">home</a>
-          </div>
-          <div className="App-catagory">
-            {" "}
-            <a href="#">fashon</a>
+            <div class="btn-group" role="group">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Home
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/bedroom.html">
+                    Bedroom
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Living room
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Kitchen
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="btn-group" role="group">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Fashon
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Women
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Man
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Kids
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </main>
